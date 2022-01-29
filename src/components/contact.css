@@ -1,0 +1,48 @@
+.name{
+    padding: 1rem;
+    max-width: 25rem;
+    font-size: 1.5rem;
+    border-radius: 3rem;
+border: none;
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+    margin: 1rem;
+}
+button{
+    background: #FDFC47;
+background: -webkit-linear-gradient(to right, #24FE41, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24FE41, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+padding: 0.5rem 2rem ;
+font-size: 1rem;
+font-weight: bold;
+border-radius: 0.5rem;
+}
+
+.email{
+    padding: 1rem;
+    border: none;
+
+    font-size: 1.5rem;
+    border-radius: 3rem;
+    max-width: 25rem;
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+}
+
+.message{
+    border-radius: 3rem;
+    border: none;
+
+    padding: 4rem;
+    margin: 1rem;
+    font-size: 1.5rem;
+    max-width: 25rem;
+    background: linear-gradient(to right, #26D0CE, #1A2980);
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    align-items: center;
+    justify-content: center;
+}

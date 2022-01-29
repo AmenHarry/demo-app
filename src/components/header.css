@@ -1,0 +1,49 @@
+.header{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display:flex;
+    list-style: none;
+    justify-self: flex-end;
+}
+
+.links li, .lii{
+     margin: 0 1rem;
+     font-size: 1.5rem;
+     cursor: pointer;
+}
+.lii{
+    text-decoration: none;
+    color: black;
+}
+
+.nav{
+    background-color: transparent;
+    background: #000000;
+    color: white;
+    position: absolute;
+   transition: all ease-in-out 0.5s;
+    display: none;
+    padding: 0.4rem;
+}
+
+.show{
+    display: block;
+}
+.nav li{
+    list-style: none;
+    margin: 0.5rem;
+     border-left: #FDFC47 solid 0.1rem;
+     padding: 0.3rem;
+     cursor: pointer;
+}
+
+.menu{
+    display: none;
+    position: fixed;
+    top: 2rem; right: 2rem; 
+}
